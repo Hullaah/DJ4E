@@ -1,2 +1,3 @@
-# DJ4E
-Repo for Django for everybody course
+# Django For EveryBody
+
+This is the repo for Django for everybody course
