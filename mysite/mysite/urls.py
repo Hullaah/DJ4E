@@ -28,7 +28,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path("polls/", include("polls.urls")),
     re_path(r'^site/(?P<path>.*)$', serve,
-        {'document_root': SITE_ROOT, 'show_indexes': True},
-        name='site_path'
-    ),
+            {'document_root': SITE_ROOT, 'show_indexes': True},
+            name='site_path'
+            ),
 ]
