@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+    </head>
+    <body>
+        <h1>Welcome to my first Django project</h1>
+        <h3>Below are some list of the applicattions in this project:</h3>
+        <ul>
+            <li><a href="{% url "polls:index" %}">A polls application</a></li>
+            <li><a href="{% url "hello:index" %}">Test the session</a></li>
+        </ul>
+    </body>
+</html>
